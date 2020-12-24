@@ -77,8 +77,12 @@ header {
   transition: all 0.4s;
 }
 .main_slider_wrap {
+  position: relative;
   width: 100%;
   color: #fff;
+}
+.main_slider_container {
+  z-index: 10;
 }
 #main_slider_1 {
   background: url("img/main/slider/main_screen_pool.png");
@@ -170,11 +174,13 @@ header {
   background: #fccb61;
 }
 .slider_right_menu {
+  z-index: 20;
   position: absolute;
-  top: 25%;
+  top: 9%;
   left: calc(50% + 200px);
 }
 .right_menu_wrap {
+  z-index: 20;
   display: flex;
   flex-direction: column;
 }

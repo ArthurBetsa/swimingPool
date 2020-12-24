@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    <link rel="stylesheet" href="css.imports/owl.carousel.min.css">
+    <link rel="stylesheet" href="css.imports/owl.theme.default.css">
+
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery/jquery.inputmask.min.js"></script>
+    <script src="js/jquery/owl.carousel.min.js"></script>
 
-    <script src="js/jquery/phone.js" type="text/javascript"></script>
 
     <script src="main.js" type="text/javascript"></script>
+
 </head>
 <body>
 <div class="root">
@@ -46,7 +51,7 @@
             </div>
         </header>
         <div class="main_slider_wrap">
-            <div class="main_slider_container">
+            <div class="main_slider_container  owl-carousel">
                 <div class="main_slider" id="main_slider_1">
                     <div class="slider_inner_wrap">
                         <div class="slider_main_wrap">
@@ -75,77 +80,76 @@
                         </div>
                     </div>
                 </div>
-                <div style="display: none"> <!--                    to delate-->
-
-                    <div class="main_slider" id="main_slider_2">
-                        <div class="slider_inner_wrap">
-                            <div class="slider_main_wrap">
-                                <div class="slider_main_text">
-                                    <h1 class="main_text_wrap">
-                                        <p class="main_text">Профессиональное проектирование,</p>
-                                        <p class="main_text text-yellow-emphasized">строительство бетонных бассейнов</p>
-                                        <p class="main_text"> любых форм и размеров</p>
-                                    </h1>
-                                    <div class="main_sub_text">
-                                        <p class="main_text">«Под ключ» с гарантией соблюдения сроков</p>
-                                    </div>
+                <div class="main_slider" id="main_slider_2">
+                    <div class="slider_inner_wrap">
+                        <div class="slider_main_wrap">
+                            <div class="slider_main_text">
+                                <h1 class="main_text_wrap">
+                                    <p class="main_text">Профессиональное проектирование,</p>
+                                    <p class="main_text text-yellow-emphasized">строительство бетонных бассейнов</p>
+                                    <p class="main_text"> любых форм и размеров</p>
+                                </h1>
+                                <div class="main_sub_text">
+                                    <p class="main_text">«Под ключ» с гарантией соблюдения сроков</p>
                                 </div>
-                                <div class="main_slider_form">
-                                    <p class="main_text">Узнайте стоимость вашего бетонного бассейна</p>
-                                    <div class="main_form_wrap">
-                                        <form action="" class="form" id="sliderForm_1">
-                                            <input class="phone_input" id="slider_main_input" name="phone_input"
-                                                   placeholder="+38 (000) 000-00-00" required="">
-                                            <input id="form_submit_3" name="submit" type="submit" class="form_submit"
-                                                   value="Узнать стоимость">
-                                        </form>
-                                    </div>
-
+                            </div>
+                            <div class="main_slider_form">
+                                <p class="main_text">Узнайте стоимость вашего бетонного бассейна</p>
+                                <div class="main_form_wrap">
+                                    <form action="" class="form" id="sliderForm_1">
+                                        <input class="phone_input" id="slider_main_input" name="phone_input"
+                                               placeholder="+38 (000) 000-00-00" required="">
+                                        <input id="form_submit_3" name="submit" type="submit" class="form_submit"
+                                               value="Узнать стоимость">
+                                    </form>
                                 </div>
+
                             </div>
                         </div>
                     </div>
-                    <div class="main_slider" id="main_slider_3">
-                        <div class="slider_inner_wrap">
-                            <div class="slider_main_wrap">
-                                <div class="slider_main_text">
-                                    <h1 class="main_text_wrap">
-                                        <p class="main_text">Профессиональное проектирование,</p>
-                                        <p class="main_text text-yellow-emphasized">строительство бетонных бассейнов</p>
-                                        <p class="main_text"> любых форм и размеров</p>
-                                    </h1>
-                                    <div class="main_sub_text">
-                                        <p class="main_text">«Под ключ» с гарантией соблюдения сроков</p>
-                                    </div>
+                </div>
+                <div class="main_slider" id="main_slider_3">
+                    <div class="slider_inner_wrap">
+                        <div class="slider_main_wrap">
+                            <div class="slider_main_text">
+                                <h1 class="main_text_wrap">
+                                    <p class="main_text">Профессиональное проектирование,</p>
+                                    <p class="main_text text-yellow-emphasized">строительство бетонных бассейнов</p>
+                                    <p class="main_text"> любых форм и размеров</p>
+                                </h1>
+                                <div class="main_sub_text">
+                                    <p class="main_text">«Под ключ» с гарантией соблюдения сроков</p>
                                 </div>
-                                <div class="main_slider_form">
-                                    <p class="main_text">Узнайте стоимость вашего бетонного бассейна</p>
-                                    <div class="main_form_wrap">
-                                        <form action="" class="form" id="sliderForm_1">
-                                            <input class="phone_input" id="slider_main_input" name="phone_input"
-                                                   placeholder="+38 (000) 000-00-00" required="">
-                                            <input id="form_submit_3" name="submit" type="submit" class="form_submit"
-                                                   value="Узнать стоимость">
-                                        </form>
-                                    </div>
+                            </div>
+                            <div class="main_slider_form">
+                                <p class="main_text">Узнайте стоимость вашего бетонного бассейна</p>
+                                <div class="main_form_wrap">
+                                    <form action="" class="form" id="sliderForm_1">
+                                        <input class="phone_input" id="slider_main_input" name="phone_input"
+                                               placeholder="+38 (000) 000-00-00" required="">
+                                        <input id="form_submit_3" name="submit" type="submit" class="form_submit"
+                                               value="Узнать стоимость">
+                                    </form>
+                                </div>
 
-                                </div>
                             </div>
                         </div>
                     </div>
-                </div><!--                    to delate-->
-                <div class="slider_right_menu">
-                    <div class="right_menu_wrap">
-                        <div class="right_menu_row" id="main_side_menu_pool">
-                            <div class="right_menu_text">
-                                <p class="right_menu_title_text">Плавательные бассейны</p>
-                                <p class="right_menu_text">для частного и коммерческого использования</p>
-                            </div>
-                            <div class="right_menu_img">
-                                <svg version="1.1" class="main_menu_svg" xmlns="http://www.w3.org/2000/svg"
-                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-                                     y="0px" viewBox="0 0 221.07 221.07"
-                                     style="enable-background:new 0 0 221.07 221.07;" xml:space="preserve">
+                </div>
+            </div>
+            <!--            slider_container end-->
+            <div class="slider_right_menu">
+                <div class="right_menu_wrap">
+                    <div class="right_menu_row" id="main_side_menu_pool">
+                        <div class="right_menu_text">
+                            <p class="right_menu_title_text">Плавательные бассейны</p>
+                            <p class="right_menu_text">для частного и коммерческого использования</p>
+                        </div>
+                        <div class="right_menu_img">
+                            <svg version="1.1" class="main_menu_svg" xmlns="http://www.w3.org/2000/svg"
+                                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+                                 y="0px" viewBox="0 0 221.07 221.07"
+                                 style="enable-background:new 0 0 221.07 221.07;" xml:space="preserve">
 <path d="M49.132,173.074c-6.49,0-12.97-2.5-17.943-7.475l-0.294-0.293c-6.666-6.665-17.278-6.844-24.162-0.407
 	c-1.614,1.511-4.145,1.423-5.654-0.189c-1.509-1.613-1.424-4.145,0.189-5.653c10.054-9.4,25.551-9.141,35.281,0.59l0.294,0.293
 	c6.666,6.666,17.277,6.845,24.161,0.407l1.382-1.292c10.052-9.4,25.55-9.14,35.279,0.592l0.294,0.293
@@ -169,20 +173,20 @@
 	C67.338,117.304,73.535,115.03,79.723,115.03z"></path>
 
 </svg>
-                            </div>
                         </div>
-                        <div class="right_menu_row" id="main_side_menu_massage">
-                            <div class="right_menu_text">
-                                <p class="right_menu_title_text">Гидромассажные бассейны</p>
-                                <p class="right_menu_text">для wellness-зон и частного использования</p>
-                            </div>
-                            <div class="right_menu_img">
-                                <svg version="1.0" class="main_menu_svg" xmlns="http://www.w3.org/2000/svg"
-                                     viewBox="0 0 968.000000 709.000000" preserveAspectRatio="xMidYMid meet">
+                    </div>
+                    <div class="right_menu_row" id="main_side_menu_massage">
+                        <div class="right_menu_text">
+                            <p class="right_menu_title_text">Гидромассажные бассейны</p>
+                            <p class="right_menu_text">для wellness-зон и частного использования</p>
+                        </div>
+                        <div class="right_menu_img">
+                            <svg version="1.0" class="main_menu_svg" xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 968.000000 709.000000" preserveAspectRatio="xMidYMid meet">
 
-                                    <g transform="translate(0.000000,709.000000) scale(0.100000,-0.100000)"
-                                       stroke="none">
-                                        <path d="M2520 7069 c-28 -12 -76 -54 -93 -84 -8 -13 -14 -104 -17 -259 l-5
+                                <g transform="translate(0.000000,709.000000) scale(0.100000,-0.100000)"
+                                   stroke="none">
+                                    <path d="M2520 7069 c-28 -12 -76 -54 -93 -84 -8 -13 -14 -104 -17 -259 l-5
 -238 -105 -37 c-801 -283 -1514 -837 -1904 -1480 -156 -257 -275 -552 -334
 -831 -45 -208 -56 -340 -56 -645 1 -303 14 -475 55 -712 228 -1320 1115 -2221
 2551 -2593 306 -79 636 -130 958 -149 223 -13 2824 -35 3440 -29 504 5 560 10
@@ -216,28 +220,28 @@
 -457 72 -816 201 -1119 401 -514 339 -798 837 -866 1519 -15 150 -12 422 5
 554 73 560 399 1038 925 1360 l95 58 6 -34 c20 -123 157 -185 265 -122 64 37
 84 87 84 208 l0 96 65 20 c56 18 212 50 310 65 39 6 371 -2 413 -10z"></path>
-                                        <path d="M4306 3964 c-399 -79 -708 -373 -808 -770 -31 -123 -31 -361 0 -476
+                                    <path d="M4306 3964 c-399 -79 -708 -373 -808 -770 -31 -123 -31 -361 0 -476
 52 -192 127 -329 256 -464 188 -200 419 -307 692 -321 511 -27 965 329 1059
 832 23 120 16 336 -13 447 -50 186 -135 334 -271 468 -159 158 -337 251 -555
 289 -81 15 -276 12 -360 -5z m322 -349 c300 -60 523 -319 539 -625 17 -320
 -195 -606 -507 -687 -87 -22 -245 -22 -330 1 -180 49 -350 186 -428 346 -55
 112 -73 185 -74 300 -1 207 79 383 235 518 154 134 361 187 565 147z"></path>
-                                    </g>
-                                </svg>
-                            </div>
+                                </g>
+                            </svg>
                         </div>
-                        <div class="right_menu_row" id="main_side_menu_sport">
-                            <div class="right_menu_text">
-                                <p class="right_menu_title_text">Спортивные бассейны</p>
-                                <p class="right_menu_text">для профессионального назначения </p>
-                            </div>
-                            <div class="right_menu_img">
-                                <svg version="1.0" class="main_menu_svg" xmlns="http://www.w3.org/2000/svg"
-                                     viewBox="0 0 1118.000000 537.000000" preserveAspectRatio="xMidYMid meet">
+                    </div>
+                    <div class="right_menu_row" id="main_side_menu_sport">
+                        <div class="right_menu_text">
+                            <p class="right_menu_title_text">Спортивные бассейны</p>
+                            <p class="right_menu_text">для профессионального назначения </p>
+                        </div>
+                        <div class="right_menu_img">
+                            <svg version="1.0" class="main_menu_svg" xmlns="http://www.w3.org/2000/svg"
+                                 viewBox="0 0 1118.000000 537.000000" preserveAspectRatio="xMidYMid meet">
 
-                                    <g transform="translate(0.000000,537.000000) scale(0.100000,-0.100000)"
-                                       stroke="none">
-                                        <path d="M98 5340 c-22 -12 -48 -38 -63 -63 l-25 -44 0 -2542 c0 -2136 2
+                                <g transform="translate(0.000000,537.000000) scale(0.100000,-0.100000)"
+                                   stroke="none">
+                                    <path d="M98 5340 c-22 -12 -48 -38 -63 -63 l-25 -44 0 -2542 c0 -2136 2
 -2547 14 -2574 16 -39 61 -82 99 -96 19 -8 264 -11 750 -11 688 0 724 1 764
 19 26 12 52 35 70 62 l28 42 3 263 3 263 41 -25 c95 -60 289 -131 428 -155
 119 -21 345 -16 467 10 234 49 424 145 600 302 213 189 321 256 488 300 114
@@ -273,22 +277,20 @@
 510 0 510 0 0 -2325z m3150 1625 l0 -150 -1395 0 -1395 0 0 150 0 150 1395 0
 1395 0 0 -150z m-2620 -508 c0 -4 -38 -45 -85 -92 l-85 -85 0 93 0 92 85 0
 c47 0 85 -3 85 -8z"></path>
-                                    </g>
-                                </svg>
-                            </div>
+                                </g>
+                            </svg>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--            slider_container end-->
 
         </div>
         <!--        slider_wrap end-->
     </div>
-</div>
-<script>
 
-</script>
+</div>
+
+<script src="js/jquery/header.controller.js" type="text/javascript"></script>
 
 </body>
 </html>
