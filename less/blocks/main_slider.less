@@ -1,0 +1,175 @@
+.main_slider_wrap {
+  width: 100%;
+  color: #fff;;
+}
+
+
+#main_slider_1 {
+  background: url("img/main/slider/main_screen_pool.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main_slider_2 {
+  background: url("img/main/slider/main_screen_massage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main_slider_3 {
+  background: url("img/main/slider/main_screen_sport.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.main_slider {
+
+  height: 540px;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 203px;
+
+  display: flex;
+  justify-content: center;
+
+  //letter-spacing: 1.45px;
+}
+
+.slider_inner_wrap {
+  width: 100%;
+  padding-top: 135px;
+  padding-left: 15px;
+
+
+  @media screen and (min-width: 1400px) {
+    max-width: 1150px;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+}
+
+.slider_main_text {
+  h1 {
+    font-weight: 200;
+    font-size: 36px;
+  }
+}
+
+.text-yellow-emphasized {
+  text-transform: uppercase;
+  color: #f4c948;
+}
+
+.main_sub_text {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.main_slider_form {
+  margin-top: 60px;
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+.main_form_wrap {
+  margin-top: 30px;
+}
+
+.phone_input {
+  height: 45px;
+  width: 220px;
+  padding: 0 15px;
+  color: #292929;
+  font-size: 12px;
+  border: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  transition: all .4s;
+
+}
+
+.form_submit {
+  cursor: pointer;
+
+  margin-left: 5px;
+  border: none;
+  background: #fbba2f;
+  font-size: 15px;
+  color: #292929;
+  font-weight: 600;
+  width: 220px;
+  -o-transition: all .4s;
+  display: inline-block;
+  height: 45px;
+  text-align: center;
+  padding: 0 15px;
+  min-width: 135px;
+  line-height: 45px;
+
+  &:hover {
+    background: #fccb61;
+  }
+}
+
+
+/////////////side menu
+
+.slider_right_menu {
+  position: absolute;
+  top: 25%;
+  left: calc(50% + 200px);
+}
+
+.right_menu_wrap{
+  display: flex;
+  flex-direction: column;
+
+  &:hover{
+  }
+}
+
+.right_menu_row{
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+
+  width: 350px;
+}
+
+.right_menu_text{
+  margin-right: 15px;
+  margin-bottom: 15px;
+
+  width: 280px;
+
+  text-align: right;
+}
+
+
+.right_menu_title_text{
+  text-transform: uppercase;
+
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.right_menu_text{
+  font-weight: 200;
+  font-size: 14px;
+}
+.main_menu_svg{
+  fill: white;
+  width: 47px;
+}
+
+.svg_active{
+  fill:#fbba2f;
+}
