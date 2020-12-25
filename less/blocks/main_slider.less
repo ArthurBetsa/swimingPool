@@ -29,7 +29,10 @@
 
 
 .main_slider {
-
+  @media screen and (max-width: 770px) {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   height: 540px;
   width: 100%;
   padding-left: 50px;
@@ -44,6 +47,11 @@
 }
 
 .slider_inner_wrap {
+  @media screen and (max-width: 770px) {
+text-align: center;
+    padding-right: 15px;
+  }
+
   width: 100%;
   padding-top: 135px;
   padding-left: 15px;
@@ -61,6 +69,10 @@
   h1 {
     font-weight: 200;
     font-size: 36px;
+
+    @media screen and (max-width: 1200px) {
+      font-size: 32px;
+    }
   }
 }
 
@@ -72,16 +84,24 @@
 .main_sub_text {
   margin-top: 10px;
   font-size: 20px;
+  @media screen and (max-width: 1200px) {
+    font-size: 16px;
+  }
 }
 
 .main_slider_form {
   margin-top: 60px;
   padding-top: 5px;
   font-size: 20px;
+  @media screen and (max-width: 1200px) {
+    font-size: 16px;
+  }
 }
 
 .main_form_wrap {
   margin-top: 30px;
+
+
 }
 
 .phone_input {
@@ -95,9 +115,14 @@
   margin-bottom: 10px;
 }
 
-.form {
+.form_phone {
   display: flex;
   transition: all .4s;
+
+  @media screen and (max-width: 770px) {
+    flex-direction: column;
+    align-items: center;
+  }
 
 }
 
@@ -132,15 +157,26 @@
   position: absolute;
   top: 26%;
   left: calc(50% + 200px);
+  @media screen and (max-width: 1200px) {
+    left: unset;
+    right: 50px;
+  }
+
+  @media screen and (max-width: 1100px) {
+    display: none;
+  }
 }
 
 .right_menu_wrap {
   z-index: 20;
   display: flex;
   flex-direction: column;
-
-  &:hover {
+  @media screen and (max-width: 1200px) {
+    p {
+      font-size: 13px;
+    }
   }
+
 }
 
 .right_menu_row {
@@ -178,6 +214,10 @@
 .main_menu_svg {
   fill: white;
   width: 47px;
+  @media screen and (max-width: 1200px) {
+    width: 40px;
+  }
+
 }
 
 .svg_active {
@@ -190,7 +230,10 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  //background-color: red;
+
+  @media screen and (max-width: 1100px) {
+    display: none;
+  }
 }
 
 .arrow_slider {
