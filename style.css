@@ -289,8 +289,18 @@ header {
     width: 40px;
   }
 }
-.svg_active {
+.right_menu_active svg {
   fill: #fbba2f;
+}
+.right_menu_active p {
+  color: #fbba2f;
+}
+.arrow_slider {
+  color: white;
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .owl-nav {
   top: 45%;
@@ -303,13 +313,6 @@ header {
   .owl-nav {
     display: none;
   }
-}
-.arrow_slider {
-  color: white;
-  height: 50px;
-  width: 50px;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .owl-nav .disabled {
   opacity: 0.35;

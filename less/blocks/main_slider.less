@@ -220,21 +220,16 @@ text-align: center;
 
 }
 
-.svg_active {
-  fill: #fbba2f;
-}
-
-.owl-nav {
-  top: 45%;
-  position: absolute;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-
-  @media screen and (max-width: 1100px) {
-    display: none;
+.right_menu_active {
+  svg{
+    fill: #fbba2f;
+  }
+  p{
+    color: #fbba2f;
   }
 }
+
+
 
 .arrow_slider {
   color: white;
@@ -246,6 +241,17 @@ text-align: center;
 }
 
 .owl-nav {
+
+  top: 45%;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 1100px) {
+    display: none;
+  }
+
   .disabled {
     opacity: 0.35;
   }
